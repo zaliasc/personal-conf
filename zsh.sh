@@ -15,10 +15,16 @@ git clone --depth 1 https://gitee.com/zaliasc/fzf.git ~/.fzf
 
 #vim ~/.zshrc
 
-ZSH_THEME=”bira”
+ZSH_THEME=”ys”
+
+export VISUAL=vim
+export EDITOR=vim
+
+alias ma="make"
 
 plugins=(git
          z
+         sudo
          extract
          zsh-autosuggestions
          zsh-syntax-highlighting
