@@ -41,6 +41,8 @@ filetype plugin indent on
 set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
+set tags=tags
+set autochdir
 " }}}
 
 let mapleader = "\<space>"
